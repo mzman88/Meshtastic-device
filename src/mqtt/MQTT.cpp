@@ -67,7 +67,7 @@ void MQTT::reconnect()
 {
     if (wantsLink()) {
         const char *serverAddr = "mqtt.meshtastic.org"; // default hostname
-        int serverPort = 1883;                          // default server port
+        int serverPort = 8883;                          // default server port
         const char *mqttUsername = "meshdev";
         const char *mqttPassword = "large4cats";
 
